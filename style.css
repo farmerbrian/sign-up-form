@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+ 
+}
+.left-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  height: 100vh;
+  width: auto;
+ 
+}
+
+img {
+  width: auto;
+  height: 100%;
+  
+}
+.right-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+fieldset {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
