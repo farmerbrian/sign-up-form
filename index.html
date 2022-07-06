@@ -10,25 +10,30 @@
 </head>
 <body>
   <div class="main-container">
-    <div class="left-container">
-      <div class="image">
-        <img src="assets/hat.jpg">  
-      </div>
-      <div class="logo">
 
+    <div class="left-container">
+      <img class="background-image" src="assets/hat.jpg">  
+      <div class="logo-container">
+        <img class="logo" src="assets/logo.png">
+        <div class="logo-name">
+          <p>Nichols Threads</p>
+        </div>
+      </div>
+      <div class="credits">
+        <p>Photo by Mike McQuerter</p>
       </div>
     </div>
 
     <div class="right-container">
       <div class="above-form">
-        <p>This is not a real online service!  You know you need something like this in your life to help you realize your deepest dreams.  Sign up now to get started.</p>
-        <p>You know you want to.</p>
+        <p>This is not a real online service!  You know you need something like this in your life to help you realize your deepest dreams.  Sign up <em>now</em> to get started.</p>
+        <p>You <em>know</em> you want to.</p>
       </div>
       <div class="form">
         <form>
           <h2>Let's do this!</h2>
-          <section>
-            <fieldset>
+          <section class="form-container">
+            <div class="left-form-container">
               <p>
                 <label for="first-name">
                   <span>FIRST NAME </span>
@@ -37,20 +42,27 @@
                 <input type="text" id="first-name" name="first-name">
               </p>
               <p>
-                <label for="last-name">
-                  <span>LAST NAME </span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="text" id="last-name" name="last-name">
-              </p>
-            </fieldset>
-            <fieldset>
-              <p>
                 <label for="mail">
                   <span>Email </span>
                   <strong><abbr title="required">*</abbr></strong>
                 </label>
                 <input type="email" id="mail" name="usermail">
+              </p>
+              <p>
+                <label for="pwd">
+                  <span>PASSWORD </span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="password" id="pwd" name="password">
+              </p>
+            </div>
+            <div class="right-form-container">
+              <p>
+                <label for="last-name">
+                  <span>LAST NAME </span>
+                  <strong><abbr title="required">*</abbr></strong>
+                </label>
+                <input type="text" id="last-name" name="last-name">
               </p>
               <p>
                 <label for="phone">
@@ -59,15 +71,6 @@
                 </label>
                 <input type="tel" id="phone" name="phone">
               </p>
-            </fieldset>
-            <fieldset>
-              <p>
-                <label for="pwd">
-                  <span>PASSWORD </span>
-                  <strong><abbr title="required">*</abbr></strong>
-                </label>
-                <input type="password" id="pwd" name="password">
-              </p>
               <p>
                 <label for="pwd">
                   <span>CONFIRM PASSWORD </span>
@@ -75,7 +78,7 @@
                 </label>
                 <input type="password" id="confirm-pwd" name="confirm-password">
               </p>
-            </fieldset>
+            </div>
           </section>
         </form>
       </div>
